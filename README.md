@@ -33,6 +33,7 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#lock-security">Security</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#notebook-readings-that-help-me ">Readings</a> &#xa0; | &#xa0;
@@ -46,7 +47,11 @@
 
 ## :dart: About ##
 
-Basic Django template
+Basic Django template.
+
+## :lock: Security ##
+
+After cloning the repo add the 'envs/' directory to .gitgnore.
 
 ## :sparkles: Features ##
 
@@ -84,6 +89,9 @@ $ source .venv/bin/activate
 
 # Install dependencies
 $ pip install -r requirements.txt
+
+# Select the enviroment
+on '/core/setting.py' find the line 'env = dotenv_values(Path(BASE_DIR, "envs", ".env.local"))' and modify the las component to point to your enviromental file.
 
 # Run the project
 $ python manage.py runserver
