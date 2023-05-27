@@ -35,6 +35,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#notebook-readings-that-help-me ">Readings</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
@@ -64,14 +65,15 @@ The following tools were used in this project:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## :notebook: Readings that help me
+## :notebook: Readings that help me ##
 
 - [Mastering Django](https://masteringdjango.com/django-tutorials/mastering-django-structure/)
 
 
+
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python3](https://python.org/) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -82,13 +84,19 @@ $ git clone https://github.com/javiergarciad/django-template
 # Access
 $ cd django-template
 
+# Create virtualenv
+$ virtualenv .venv
+
+# Activate virtualenv
+$ source .venv/bin/activate
+
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ python manage.py runserver
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:8000>
 ```
 
 ## :memo: License ##
