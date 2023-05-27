@@ -48,28 +48,20 @@
 
 Basic Django template
 
-
 ## :sparkles: Features ##
 
-:heavy_check_mark: App structure;\
+:heavy_check_mark: Apps structure;\
 :heavy_check_mark: Differente .envs for local dev or production;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Django](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Django](https://www.djangoproject.com/)
 
 ## :notebook: Readings that help me ##
 
-- [Mastering Django](https://masteringdjango.com/django-tutorials/mastering-django-structure/)
-
-
+- [Mastering Django](https://masteringdjango.com/django-tutorials/)
 
 ## :white_check_mark: Requirements ##
 
