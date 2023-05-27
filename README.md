@@ -1,9 +1,8 @@
 <div align="center" id="top">
   <img src="./.github/app.gif" alt="Django Template" />
-
   &#xa0;
 
-  <!-- <a href="https://djangotemplate.netlify.app">Demo</a> -->
+
 </div>
 
 <h1 align="center">Django Template</h1>
@@ -51,19 +50,24 @@ Basic Django template
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Modify structure to use .....;\
-:heavy_check_mark: Use differente .envs for local dev or production;\
+:heavy_check_mark: App structure;\
+:heavy_check_mark: Differente .envs for local dev or production;\
 :heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
+- [Django](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+## :notebook: Readings that help me
+
+- [Mastering Django](https://masteringdjango.com/django-tutorials/mastering-django-structure/)
+
 
 ## :white_check_mark: Requirements ##
 
